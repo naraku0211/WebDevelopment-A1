@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login Form</h1>
+        <form action="">
+            <div class="form-control">
+                <input type="text" name="Username" id="username" required>
+                <label for="email">Email Address</label>
+                <!--Transition for word "Email"-->
+                    <span style="transition-delay: 0ms;">E</span>
+                    <span style="transition-delay: 50ms;">m</span>
+                    <span style="transition-delay: 100ms;">a</span>
+                    <span style="transition-delay: 150ms;">i</span>
+                    <span style="transition-delay: 200ms;">l</span>
+            </div>
+            <div class="form-control">
+                <input type="password" name="Password" id="password">
+                <label for="password">Password</label>
+            </div>
+
+            <button type="submit" class="btn">LOGIN</button>
+
+            <p class="text">Do not have an account? <a href="#">Register</a></p>
+
+        </form>
+    </div>
+    <script src="js/script.js"/>
+</body>
+</html>
